@@ -17,8 +17,8 @@ public class Scene extends Clip {
 		Clip(_oParent, 0.0, 0.0);
 		
 		//!Nex View Object:X ,Y,   Width,Height,
-		oObj = new View( 300,300,  200,200);
-		
+		oObj = new View( 0,0,  800,600);
+		/*
 		//Moving
 		//! ----- Pos -- In Screen Coordinate (0.0, 0.0, 0.0 = Top left)
 		oObj.vPos.nX.fTo(400.0);
@@ -37,15 +37,15 @@ public class Scene extends Clip {
 		//! ------ Size ------- (1.0 = Normal, 0.5 Half, 2.0 Double)
 		oObj.vSize.nWidth.fTo(1.5);
 		oObj.vSize.nHeight.fTo(1.5);
-		
+		*/
 	}
 
 	//!Updated each frame, parents before
 	override public function fUpdateParentToChild():Void {
-	
+	/*
 		//! -----Rotation ----- (0.0 = Normal, PI/2.0 = 90deg,  PI = 180deg ) *All in radian
 		oObj.vRot.nPitch = oObj.vRot.nPitch + 0.005;
-		oObj.vRot.nRoll  = oObj.vRot.nRoll  + 0.008;
+		oObj.vRot.nRoll  = oObj.vRot.nRoll  + 0.008;*/
 	}
 		
 }
