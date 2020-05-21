@@ -5,19 +5,19 @@ import GZ.Gfx.Vector.VectorShape;
 
 import GZ.Gfx.Root;
 import GZ.Gfx.Clip;
-import GZ.Gfx.Vector.Box;
+import GZ.Gfx.Clip.View;
 
 public class Scene extends Clip {
 
 		
-	public var oObj : Box;
+	public var oObj : View;
 
 		
 	public function Scene( _oParent : Root ):Void {
 		Clip(_oParent, 0.0, 0.0);
 		
-		//!Nex Box Object:X ,Y,   Width,Height, LineSize
-		oObj = new Box( 300,300,  200,200,    5);
+		//!Nex View Object:X ,Y,   Width,Height,
+		oObj = new View( 300,300,  200,200);
 		
 		//Moving
 		//! ----- Pos -- In Screen Coordinate (0.0, 0.0, 0.0 = Top left)
