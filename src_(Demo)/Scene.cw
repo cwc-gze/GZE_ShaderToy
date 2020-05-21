@@ -35,8 +35,8 @@ public class Scene extends Clip {
 	
 		//Scaling
 		//! ------ Size ------- (1.0 = Normal, 0.5 Half, 2.0 Double)
-		oObj.vSize.nWidth.fTo(0.5);
-		oObj.vSize.nHeight.fTo(0.5);
+		oObj.vSize.nWidth.fTo(1.5);
+		oObj.vSize.nHeight.fTo(1.5);
 		
 	}
 

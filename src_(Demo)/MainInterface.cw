@@ -3,7 +3,7 @@ import GZ.Sys.Interface.Interface;
 import GZ.Sys.ThreadItf;
 
 import GZ.Gpu.ShaderModel.GzModel.GzShModel_Quad.GzShModel_Quad;
-import GZ.Gpu.ShaderModel.GzModel.GzShModel_Shadertoy;
+import GZ.Gpu.ShaderModel.GzModel.GzShModel_Shadertoy.GzShModel_Shadertoy;
 
 import Demo.Scene;
 
